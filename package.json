@@ -1,0 +1,23 @@
+{
+  "name": "s3-waveform",
+  "version": "1.0.0",
+  "description": "Generate and store waveform data given an s3 key to an audio file via streams.",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "~2.1.17",
+    "lame": "^1.2.3",
+    "pcm-transform": "~1.0.2",
+    "s3-stream-upload": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.1",
+    "mock-s3": "~1.0.2",
+    "chai": "~2.1.2",
+    "buffer-queue": "~1.0.0",
+    "buffer-equal": "0.0.1",
+    "streambuffers": "1.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
